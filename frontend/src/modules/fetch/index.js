@@ -71,4 +71,4 @@ async function getBookDetailById(id) {
   }
 }
 
-export { registerUser, loginUser, createBook, getAllBooks, editBook, deleteBook,getBookDetailById };
+export { registerUser, loginUser, createBook, getAllBooks, editBook, deleteBook, getBookDetailById };

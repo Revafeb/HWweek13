@@ -1,9 +1,10 @@
+
 import { VStack } from "@chakra-ui/react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Navbar from "./components/Navbar";
-import BookDetails from "./pages/BooksDetail";
-import EditBookPage from "./pages/Editbook";
 import Homepage from "./pages/Homepage";
+import BookDetails from "./pages/BooksDetail";
+import EditBookPage from "./pages/EditBook";
 import NewBookPage from "./pages/NewBooks";
 import Register from "./pages/Register";
 
@@ -23,5 +24,6 @@ function App() {
     </VStack>
   );
 }
+
 
 export default App;
